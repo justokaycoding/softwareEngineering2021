@@ -1,8 +1,8 @@
 (function($) {
-  
+
   $(document).on('focusout', 'input', function(e) {
     $('body').css({
-      "background-color": "yellow",
+      "background-color": "green",
       "font-size": "18px"
     });
   });
