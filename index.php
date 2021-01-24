@@ -1,15 +1,7 @@
 <?php
-  require_once(__DIR__ . '/header.php');
-  require_once(__DIR__ . '/footer.php');
-  require_once(__DIR__ . '/shortcode.php');
-
-
-  $t = __DIR__ . '/shortcode.php';
-
-  echo '<pre>';
-  var_dump($t);
-  echo '</pre>';
-
+  require_once(__DIR__ . '/php/header.php');
+  require_once(__DIR__ . '/php/footer.php');
+  require_once(__DIR__ . '/php/shortcode.php');
 
   $Head = new Head();
   $Foot = new Foot();
