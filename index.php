@@ -1,7 +1,7 @@
 <?php
-  require_once('/php/header.php');
-  require_once('/php/footer.php');
-  require_once('/php/shortcode.php');
+  require_once('../php/header.php');
+  require_once('../php/footer.php');
+  require_once('../php/shortcode.php');
 
   $Head = new Head();
   $Foot = new Foot();
