@@ -3,6 +3,14 @@
   require_once(__DIR__ . '/footer.php');
   require_once(__DIR__ . '/shortcode.php');
 
+
+  $t = __DIR__ . '/shortcode.php';
+
+  echo '<pre>';
+  var_dump($t);
+  echo '</pre>';
+
+
   $Head = new Head();
   $Foot = new Foot();
 
