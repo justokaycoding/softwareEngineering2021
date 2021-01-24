@@ -9,6 +9,5 @@
   $output = $Head->get_header();
   $output .= get_form();
   $output .= $Foot->get_footer();
-  $output = 'test';
 	echo $output;
 ?>
