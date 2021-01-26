@@ -7,7 +7,8 @@
   $Foot = new Foot();
 
   $output  = $Head->get_header();
-  $output .= get_form();
+  $output .= '<h1>Yeap</h1>';
+  $output .= mark_up_generator(get_form());
   $output .= $Foot->get_footer();
 	echo $output;
 ?>

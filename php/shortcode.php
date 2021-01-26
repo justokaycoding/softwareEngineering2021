@@ -10,7 +10,7 @@ function get_form(){
 		return $output;
 }
 
-function mark_up_generator($width = 'width-12', $type = 'text', $content = '', $color = 'light'){
+function mark_up_generator($content = '', $width = 'width-12', $type = 'text', $color = 'light'){
 	$output .= '<div id="" class="section">';
 		$output .= '<div class="constraint">';
 			$output .= '<div id="" class="column '.$width.'">';
