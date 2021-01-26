@@ -17,6 +17,7 @@ class Head {
     $output .= '<meta name="author" content="SitePoint">';
     $output .= $this->get_css();
     $output .= '</head>';
+    $output .= '<body>';
     return $output;
   }
 }

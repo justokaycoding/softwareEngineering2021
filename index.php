@@ -11,3 +11,4 @@
   $output .= $Foot->get_footer();
 	echo $output;
 ?>
+s
