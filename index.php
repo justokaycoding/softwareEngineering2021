@@ -7,8 +7,8 @@
   $Foot = new Foot();
 
   $output  = $Head->get_header();
+  $output .= '<h1>Yeap</h1>';
   $output .= get_form();
   $output .= $Foot->get_footer();
 	echo $output;
 ?>
-s
