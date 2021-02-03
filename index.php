@@ -3,7 +3,7 @@
   require_once(__DIR__ . '/php/footer.php');
   require_once(__DIR__ . '/php/shortcode.php');
 
-  global $user_array;
+  //global $user_array;
 
   $Head = new Head();
   $Foot = new Foot();
