@@ -9,7 +9,7 @@
     $Foot = new Foot();
 
     $output  = $Head->get_header();
-    //$output .= mark_up_generator(get_form());
+    $output .=  get_form() ;
     $output .= $Foot->get_footer();
 	   echo $output;
 
