@@ -5,15 +5,16 @@
 
   // global $user_array;
 
-    $Head = new Head();
-    $Foot = new Foot();
-
-    $width = array("width-6", "width-6");
-    $type = array("code", "text");
-
-    $output  = $Head->get_header();
-    $output .=  markup($width, $type, login_form());
-    $output .= $Foot->get_footer();
-	  echo $output;
+    // $Head = new Head();
+    // $Foot = new Foot();
+    //
+    // $width = array("width-6", "width-6");
+    // $type = array("code", "text");
+    //
+    // $output  = $Head->get_header();
+    // $output .=  markup($width, $type, login_form());
+    // $output .= $Foot->get_footer();
+	  // echo $output;
+    echo 'index';
 
 ?>
