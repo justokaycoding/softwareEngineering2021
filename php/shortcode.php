@@ -12,16 +12,17 @@ function get_form(){
 	return $output;
 }
 
-function markup($width, $content, $type){
+function markup($width, $type, $content){
 	$output = '<div id="" class="section">';
-	$output = '<div class="constraint">';
-	$output = '<div class="column '.$width.'">';
-	$output = '<div class="wrapper '.$type.'">';
-	$output = $content;
-	$output = '</div>';
-	$output = '</div>';
-	$output = '</div>';
-	$output = '</div>';
+	$output .= '<div class="constraint">';
+	$output .= '<div class="column '.$width.'">';
+	$output .= '<div class="wrapper '.$type.'">';
+	$output .= $content;
+	$output .= '</div>';
+	$output .= '</div>';
+	$output .= '</div>';
+	$output .= '</div>';
+	return $output
 }
 
 
