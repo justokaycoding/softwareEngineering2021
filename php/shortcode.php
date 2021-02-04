@@ -17,9 +17,6 @@ function markup($width_array, $type, $content){
 	$output = '<div id="" class="section">';
 	$output .= '<div class="constraint">';
 	foreach($width_array as $width){
-		echo '<pre>';
-		var_dump($width);
-		echo '</pre>';
 		$output .= '<div class="column '.$width.'">';
 		$output .= '<div class="wrapper '.$type[$index].'">';
 		$output .= $content;
