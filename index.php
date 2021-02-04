@@ -9,8 +9,8 @@
     $Foot = new Foot();
 
     $output  = $Head->get_header();
-    $output .=  get_form() ;
+    $output .=  markup(get_form());
     $output .= $Foot->get_footer();
-	   echo $output;
+	  echo $output;
 
 ?>

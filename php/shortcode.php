@@ -1,6 +1,6 @@
 <?php
 
-	function get_form(){
+function get_form(){
 	$output = '<form method="POST" action="php/login.php">';
 	$output .= '<label for="fname">First name:</label><br>';
 	$output .= '<input type="text" id="fname" name="fname" value="John"><br>';
@@ -10,6 +10,18 @@
 	$output .= '</form>';
 
 	return $output;
+}
+
+function markup($width, $content, $type){
+	$output = '<div id="" class="section">';
+	$output = '<div class="constraint">';
+	$output = '<div class="column '.$width.'">';
+	$output = '<div class="wrapper '.$type.'">';
+	$output = $content;
+	$output = '</div>';
+	$output = '</div>';
+	$output = '</div>';
+	$output = '</div>';
 }
 
 
