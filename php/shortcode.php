@@ -22,7 +22,7 @@ function markup($width, $type, $content){
 	$output .= '</div>';
 	$output .= '</div>';
 	$output .= '</div>';
-	return $output
+	return $output;
 }
 
 
