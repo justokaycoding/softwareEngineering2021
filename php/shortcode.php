@@ -16,14 +16,16 @@ function markup($width_array, $type, $content){
 	$index = 0;
 	$output = '<div id="" class="section">';
 	$output .= '<div class="constraint">';
-
 	foreach($width_array as $width){
+		echo '<pre>';
+		var_dump($width);
+		echo '</pre>';
 		$output .= '<div class="column '.$width.'">';
 		$output .= '<div class="wrapper '.$type[$index].'">';
 		$output .= $content;
 		$output .= '</div>';
 		$output .= '</div>';
-		$index++; 
+		$index++;
 	}
 
 	$output .= '</div>';
