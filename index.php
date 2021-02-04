@@ -9,7 +9,7 @@
     $Foot = new Foot();
 
     $output  = $Head->get_header();
-    $output .=  markup(get_form());
+    $output .=  markup('width-6', get_form(), 'code');
     $output .= $Foot->get_footer();
 	  echo $output;
 
