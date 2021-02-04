@@ -12,14 +12,20 @@ function get_form(){
 	return $output;
 }
 
-function markup($width, $type, $content){
+function markup($width_array, $type, $content){
+	$index = 0;
 	$output = '<div id="" class="section">';
 	$output .= '<div class="constraint">';
-	$output .= '<div class="column '.$width.'">';
-	$output .= '<div class="wrapper '.$type.'">';
-	$output .= $content;
-	$output .= '</div>';
-	$output .= '</div>';
+
+	foreach($width_array as $width){
+		$output .= '<div class="column '.$width.'">';
+		$output .= '<div class="wrapper '.$type[$index].'">';
+		$output .= $content;
+		$output .= '</div>';
+		$output .= '</div>';
+		$index++; 
+	}
+
 	$output .= '</div>';
 	$output .= '</div>';
 	return $output;
