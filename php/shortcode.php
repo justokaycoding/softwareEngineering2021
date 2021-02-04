@@ -1,6 +1,6 @@
 <?php
 
-function get_form(){
+function login_form(){
 	$output = '<form method="POST" action="php/login.php">';
 	$output .= '<label for="fname">First name:</label><br>';
 	$output .= '<input type="text" id="fname" name="fname" value="John"><br>';

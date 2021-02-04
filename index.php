@@ -3,7 +3,7 @@
   require_once(__DIR__ . '/php/footer.php');
   require_once(__DIR__ . '/php/shortcode.php');
 
-  //global $user_array;
+  // global $user_array;
 
     $Head = new Head();
     $Foot = new Foot();
@@ -12,7 +12,7 @@
     $type = array("code", "text");
 
     $output  = $Head->get_header();
-    $output .=  markup($width, $type, get_form());
+    $output .=  markup($width, $type, login_form());
     $output .= $Foot->get_footer();
 	  echo $output;
 
