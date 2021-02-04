@@ -14,7 +14,7 @@ function get_form(){
 
 function markup($width_array, $type, $content){
 
-	$index = 1;
+	$index = 0;
 	$output = '<div id="" class="section">';
 	$output .= '<div class="constraint">';
 	foreach($width_array as $width){
